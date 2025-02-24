@@ -18,11 +18,18 @@ FIAP News é um portal de notícias desenvolvido para oferecer informações atu
 
 ## Instalação e Configuração
 
-### Clonando o repositório
-```bash
-git clone https://github.com/GRUPO6-3CTJ/FIAP_NEWS.git
-cd FIAP_NEWS
-```
+1. Clone o repositório
+   ```bash
+   git clone https://github.com/GRUPO6-3CTJ/FIAP_NEWS.git
+   ```
+2. Navegue até o diretório do projeto:
+    ```bash
+    cd FIAP_NEWS
+    ```
+3. Instale as dependências:
+    ```bash
+    npm install
+    ```
 
 ### Visualizando o Frontend
 
