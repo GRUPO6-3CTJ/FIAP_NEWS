@@ -10,7 +10,19 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-:root {
+ .banner {
+  background-image: url('/frontend/assets/banner.png'); /* Substitua pelo caminho da sua imagem */
+  background-size: cover; /* Faz a imagem cobrir todo o espaço */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Evita repetição da imagem */
+  color: white; /* Cor do texto */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Adiciona sombra ao texto para melhor visibilidade */
+}
+.banner .text-center {
+  padding-top: 150px; /* Adiciona espaço superior */
+}
+
+ :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
