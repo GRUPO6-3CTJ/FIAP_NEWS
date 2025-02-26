@@ -13,7 +13,7 @@ FIAP News é um portal de notícias desenvolvido para oferecer informações atu
 
 * __Frontend:__ HTML, CSS, JavaScript
 
-* __Backend:__ Node.js, Express, MySQL
+* __Backend:__ Node.js, Express, MongoDB
 
 * __Outras Ferramentas:__ Git, Postman
 
@@ -38,7 +38,7 @@ FIAP News é um portal de notícias desenvolvido para oferecer informações atu
 
 ### Visualizando o Frontend
 
-Abra o arquivo `index.html` no navegador para visualizar o site.
+Abra o arquivo `index.html` no navegador para visualizar o site ou utilize a extensão "Live Server" no Visual Studio Code, usando a função "Open with Live Server".
 
 ## Contribuição
 
