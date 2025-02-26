@@ -7,7 +7,7 @@
 
 ## Descrição
 
-FIAP News é um portal de notícias desenvolvido para oferecer informações atualizadas sobre tecnologia, educação, inovação e empreendedorismo. O projeto conta com uma interface responsiva e moderna, além de uma API desenvolvida em Node.js para gerenciar as notícias.
+FIAP News é um portal de notícias desenvolvido para oferecer informações atualizadas sobre tecnologia e inovação. O projeto conta com uma interface responsiva e moderna, além de uma API desenvolvida em Node.js para gerenciar as notícias.
 
 ## Tecnologias Utilizadas
 
@@ -40,24 +40,6 @@ FIAP News é um portal de notícias desenvolvido para oferecer informações atu
 
 Abra o arquivo `index.html` no navegador para visualizar o site ou utilize a extensão "Live Server" no Visual Studio Code, usando a função "Open with Live Server".
 
-## Contribuição
+## Passo a passo para ajudar
 
-1. Faça um fork do repositório
-
-2. Crie uma nova branch
-   ```bash
-   git checkout -b feature-minha-feature)
-3. Commit suas alterações
-   ```bash
-   git commit -m 'Adicionando nova funcionalidade')
-
-4. Envie para o repositório
-    ```bash
-    git push origin feature-minha-feature)
-
-5. Abra um Pull Request
-
-## Licença
-
-Este projeto está sob a licença MIT. Consulte o arquivo LICENSE para mais detalhes.
-
+1. 
