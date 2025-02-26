@@ -1,4 +1,5 @@
-![image](https://github.com/user-attachments/assets/69bc1315-852f-4610-9e3f-183236e97ea6)
+![image](https://github.com/user-attachments/assets/211aed64-a5fb-4efd-9a37-9850946ef1c4)
+
 
 # FIAP_NEWS
 
