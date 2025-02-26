@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/97ae2808-d72c-4f5b-b68c-99b9a3fbaf6b)
+
 # FIAP_NEWS
 
 ## Descrição
