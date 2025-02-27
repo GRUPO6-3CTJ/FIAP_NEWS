@@ -19,7 +19,7 @@ FIAP NEWS é um projeto desenvolvido para a disciplina de desenvolvimento web, c
 
 ## Estrutura do Projeto
 
-![image](https://github.com/user-attachments/assets/e25ba3cf-eea1-4ee6-9b4c-ed979e3e4732)
+![image](https://github.com/user-attachments/assets/c4b60ca9-697a-4f0e-91d2-570d6635ea7b)
 
 
 ## Instalação e Configuração
