@@ -8,12 +8,10 @@
         <title>FIAP News - IA Generativa</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
         
     </head>                                                                                               
-    <body>  
-        <!-- Responsive navbar-->
+    <body> 
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
                 <a class="navbar-brand" href="#!">FIAP News</a>
@@ -26,7 +24,6 @@
                 </div>
             </div>
         </nav>    
-        <!-- Page header with logo and tagline-->
         <header class="py-5 bg-light border-bottom mb-4">
             <div class="container">
                 <div class="text-center my-5">
@@ -34,14 +31,14 @@
                  </div>
              </div>
          </header>
-         <!-- Page content-->
+        
         <div class="container">
             <div class="row">
-                <!-- Main content-->
+                
                 <div class="col-lg-8">
                     <h2>Notícias mais Recentes</h2>
-                    <div id="news-container" class="row"> <!-- Container onde os cards serão adicionados -->
-                        <!-- Os cards serão preenchidos aqui -->
+                    <div id="news-container" class="row">
+ 
                     </div>
                 </div>
                 <!-- Side widgets-->
@@ -56,7 +53,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Categories widget-->
                     <div class="card mb-4">
                         <div class="card-header">Categorias</div>
                         <div class="card-body">
@@ -65,12 +61,12 @@
                                     <ul class="list-unstyled mb-0">
                                         <li><a href="ia_generativa.html">IA Generativa</a></li>
                                         <li><a href="blockchain.html">Blockchain</a></li>
-                                        <li><a href="machine_learning.htm">Machine Learning</a></li>
+                                        <li><a href="machine_learning.html">Machine Learning</a></li>
                                     </ul>
                                 </div>
                                 <div class="col-sm-6">
                                     <ul class="list-unstyled mb-0">
-                                        <li><a href="cybersecuryty.html">Cybersecurity</a></li>
+                                        <li><a href="cybersecurity.html">Cybersecurity</a></li>
                                         <li><a href="tech.html">Tech</a></li>
                                     </ul>
                                 </div>
@@ -80,22 +76,21 @@
                 </div>
             </div>
         </div>
+
         <script>
             async function fetchNews(category) {
                 try {
-                    const response = await fetch(`http://localhost:3000/api/news?category=${category}`);
+                    const response = await fetch(`http://localhost:3000/api/news/category/${encodeURIComponent(category)}`);
                     const news = await response.json();
                     const newsContainer = document.getElementById('news-container');
-    
-                    // Limpar o conteúdo anterior
+
                     newsContainer.innerHTML = '';
-    
-                    // Para cada notícia recebida, criar um card
+
                     news.forEach(article => {
                         const card = `
                             <div class="col-md-12 mb-4"> <!-- O card agora ocupa toda a largura da coluna -->
                                 <div class="card h-100">
-                                    <img class="card-img-top" src="assets/ia_generativa.png" alt="${article.title}" />
+                                    <img class="card-img-top" src="assets/generico.png" alt="${article.title}" />
                                     <div class="card-body">
                                         <div class="small text-muted">${new Date(article.date).toLocaleDateString()}</div>
                                         <h2 class="card-title h4">${article.title}</h2>
@@ -105,14 +100,15 @@
                                 </div>
                             </div>
                         `;
-                        newsContainer.innerHTML += card; // Adiciona o card ao container
+                        newsContainer.innerHTML += card;
                     });
                 } catch (error) {
                     console.error('Erro ao buscar notícias:', error);
                 }
             }
-    
-            window.onload = () => fetchNews('IA Generativa'); // Chame a função com a categoria desejada
+            window.onload = () => fetchNews('IA Generativa');
         </script>
-  </body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
 </html>
+
